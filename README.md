@@ -3,6 +3,7 @@ A program that mines information from Wikipedia pages to answer questions. NLP t
 reformulation, n-gram mining, filtering, and tiling. More information and detailed comments available in the code.
 
 To run:
+
 python qa.py \<log file name\>
 
 This log file tracks in detail how the answers are reached.
@@ -11,37 +12,47 @@ This log file tracks in detail how the answers are reached.
 Here is a collection of correct answers given by QAM that I thought did a good job showcases the program's strengths.
 
 Q1) When was John F. Kennedy assassinated? 
+
 QAM) John F Kennedy was assassinated November 22, 1963 
  
 Q2) When was The Boston Massacre? 
+
 QAM) The Boston Massacre was March 5, 1770 
  
 Q3) When is Thanksgiving? 
+
 QAM) Thanksgiving is the second Monday of October in Canada and on the fourth Thursday of November in the United States, 
      and around the same part of the year in other places. 
  
 Q4) What is a pencil?
+
 QAM) A pencil is an implement for writing or drawing constructed of a narrow, solid pigment core inside a protective casing which 
      prevents the core from being broken and/or from leaving marks on the users hand during use. 
  
 Q5) Who was Abraham Lincoln? 
+
 QAM) Abraham Lincoln was an American lawyer and politician who served as the 16th President of the United States from 1861 until 
      his assassination in April 1865. 
  
 Q6) Who was Martin Luther King? 
+
 QAM) Martin Luther King Jr. was an American Baptist minister and activist who became the most visible spokesperson and leader 
      in the civil rights movement from 1954 until his death in 1968. 
  
 Q7) What is Zimbabwe? 
+
 QAM) Zimbabwe is a landlocked country in southern Africa, lying between latitudes 15 and 23S, and longitudes 25 and 34E. 
  
 Q8) Where is The Liberty Bell? 
+
 QAM) The Liberty Bell is located in the Liberty Bell Center in Independence National Historical Park. 
  
 Q9) Where is Kilimanjaro?
+
 QAM) Kilimanjaro is in Tanzania. 
  
 Q10) Who shot John Lennon? 
+
 QAM) Mark David Chapman shot Lennon.
 
 ## Notable Blunders
